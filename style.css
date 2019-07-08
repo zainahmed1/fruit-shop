@@ -1,0 +1,134 @@
+#head{
+    height: 100px;
+    width: auto;
+    background-image: linear-gradient(#3d4246, #61697d, #3d4246);
+    
+     
+}
+#title{
+    font-size: 30px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    display:flex;
+    justify-content:center;
+    padding-top: 20px;
+    margin-top: -10px;
+}
+#div{
+    background-color: white;
+    height: 90px;
+    width: auto;
+    margin-top: -17px;
+    padding-right: 20px;
+}
+#title2{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    display:flex;
+    justify-content:center;
+    padding-top: 30px;
+}
+
+#title2 button{
+    height:60px;
+    width:150px;
+ }/*
+#input{
+    border-radius: 70px;
+    height: 50px;
+    width: 100px;
+    margin-top: -20px;
+    border-color: black;
+    font-size: 45px;
+    text-align: center;
+} */
+#div2{
+    background-color:#efe2cc;
+    height: 180px;
+    width: auto;
+    margin-top: -24px;
+}
+#title3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    display:flex;
+    justify-content:center;
+    padding-top: 60px;
+}
+#section{
+    width:auto;
+    height:240px;
+    background-image: linear-gradient(#3d4246, #61697d, #3d4246);;
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.section2{
+    width:200px;
+    height:220px;
+    background-color:white;
+
+}
+.button{
+   border-radius: 10px;
+   border-color: black;   
+}
+#function{
+    height: 35px;
+    width: 200px;
+    background-color: darkgreen;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    color:#e9d191;
+}
+#img{
+    height: 90px;
+    width: 100px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+#h3{
+    padding-left: 70px;
+    margin-top: -4px;
+}
+#button{
+    display: flex;
+    justify-content: space-between;
+     border-radius: 30px;
+    background-image: linear-gradient(#3d4246, #414653 );
+    margin-top: 30px;
+    
+}
+#haveMoney{
+    height: 40px;
+    width: 80px;
+    margin-top:-1px;
+    display: flex;
+    text-align: center;
+    border-radius: 30px;
+    border-color: black;
+    font-size: 30px;
+
+}
+
+/* .total{
+    margin-top:-70px; 
+    padding-left: 520px;
+    color: red; 
+    font-size: 45px;
+} */
+.span{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-left: 310px;
+    margin-top: -70px;
+    color: red; 
+}
+#input2{
+    text-align: center;
+    height: 20px;
+    width: 120px;
+}

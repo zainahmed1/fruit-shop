@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fruit Shop</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="head">
+        <h1 id="title"> Fruit Shop</h1>
+    </header>
+    <div id="div">
+        <h1 id="title2"><b>I have Rs. </b>
+            <input type="number" id="haveMoney" >
+        </h1>
+    </div>
+    <div id="div2">
+        <h1 id="title3">Your total is Rs.</h1>
+        <span id="totalbill" class="span"></span>
+    </div>
+    <div id="section">
+        <div class="section2">
+            <div id="function">Rs.10</div>
+            <img id="img" src="images/apple.png">
+            <h3 id="h3"><b>Apple</b></h3>
+            <div id="button">
+                <button  value="-" onclick="minusApple()">-</button>
+                <input type="text" value="" class="noOfApples" id="input2">
+                <button value="+" onclick="plusApple()">+</button>
+            </div>
+        </div>
+        <div class="section2">
+            <div id="function">Rs.15</div>
+            <img id="img" src="images/orange.png">
+            <h3 id="h3">Orange</h3>
+            <div id="button">
+                <button onclick="minusOrange()">-</button>
+                <input type="text" value="" class="noOfOranges" id="input2">
+                <button onclick="plusOrange()">+</button>
+            </div>
+        </div>
+        <div class="section2">
+            <div id="function">Rs.7</div>
+            <img id="img" src="images/banana.png">
+            <h3 id="h3">Banana</h3>
+            <div id="button">
+                <button onclick="minusBanana()">-</button>
+                <input type="text" value="" class="noOfBananas" id="input2">
+                <button onclick="plusBanana()">+</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
