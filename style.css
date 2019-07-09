@@ -151,3 +151,9 @@ section .mobile{
         display: none;
     }
 }
+@media screen and (max-width: 600px){
+    section{
+        height: 200px;
+        background-position: 0  -0px;
+    }
+}
